@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@300;500&family=Josefin+Sans&family=Montserrat&family=Open+Sans&family=PT+Sans&family=PT+Serif&family=Quicksand&family=Roboto:ital,wght@0,400;1,100&display=swap');
+*body {
+  margin: 0px;
+  padding: 0px;
+}
+.about{
+  background-image: url(images/tel.jpg);
+  background-position: center;
+  background-size: 100% contain;
+  height: 400px;
+  font-family: "PT Sans";
+  margin-bottom: 30px;
+}
+.header{
+  display: flex;
+  justify-content: space-between;
+  padding: 0px;
+  margin: 0px;
+}
+.header-icon{
+  margin-top: 10px;
+  margin-left: 5px;
+}
+.header-icon a{
+  border: 2px solid rgb(44, 9, 36);
+  border-radius: 5px;
+  padding: 2px 10px;
+  text-decoration: none;
+  color:white;
+}
+nav{
+  margin-top: 25px;
+}
+nav a{
+  border: 2px solid rgb(44, 9, 36);
+  border-radius: 10px;
+  text-decoration: none;
+  color: white;
+  margin-right: 15px;
+  padding: 10px;
+}
+.contact-forms{
+  display: block;
+}
+.contact-items{
+  text-align: center;
+  margin-top: 160px;
+  color: whitesmoke;
+  line-height: 30px;
+}
+.contact-items h1{
+  font-size: 35px;
+}
+.contact-items p{
+  font-size: 17px;
+}
+form{
+  font-family: "Open Sans";
+  margin:2% 5%;
+}
+fieldset{
+  display: block;
+  border-radius: 10px;
+  padding: 30px 80px;
+  background-color: rgba(128, 128, 128, 0.6);
+  max-width: 300px;
+  margin: 0 auto;
+  text-align: center;
+}
+legend {
+  border: 1px solid black;
+  border-radius: 5px;
+  text-align: left;
+  margin-right: 50px;
+  padding: 10px 8px;
+  text-transform: capitalize;
+  background-color: rgba(128, 128, 128, 0.6);
+}
+#news{
+  width: 20px;
+  height: 20px;
+  margin-bottom: 15px;
+  margin-top: 4px;
+}
+#country{
+  width: 250px;
+  padding: 2px;
+}
+#fname,#lname,#comment,#country,#phone{
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+.note{
+  margin: 0 auto;
+  padding: 0 10%;
+}
+#news span{
+  margin-right: 30px;
+  font-size: 16px;
+}
+button {
+  border-radius: 5px;
+  padding: 5px 25px;
+}
+.footer{
+  background-image: url(images/tel.jpg);
+  background-size: 100%;
+  height: fit-content;
+  font-family: "Quicksand";
+  color: whitesmoke;
+}
+.footer-items {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.footer-icon{
+  margin: 10px 0px 0px 10px;
+}
+.footer-icon a{
+  border: 2px solid rgb(44, 9, 36);
+  border-radius: 5px;
+  padding: 2px 10px;
+  text-decoration: none;
+  color:white;
+}
+.c-right{
+  margin-top: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.fa {
+   padding: 10px;
+   font-size: 30px;
+   width: 15px;
+   text-align: center;
+   text-decoration: none;
+   margin: 5px 2px;
+ }
+ .fa:hover {
+     opacity: 0.7;
+ }
+ .fa-facebook {
+   border-radius:50px;
+   background: #3B5998;
+   color: white;
+ }
+ .fa-twitter {
+   background: #55ACEE;
+   color: white;
+   border-radius: 50px;
+ }
+ .fa-whatsapp{
+   background: #38d235;
+   border: 1px solid ;
+   border-radius: 50px;
+   width: 15px;
+ }
+ .fa-linkedin {
+   background: #007bb5;
+   color: white;
+   border-radius: 50px;
+ }
+ .fa-instagram {
+   background: #007bb5;
+   color: white;
+   border-radius: 50px;
+ }
