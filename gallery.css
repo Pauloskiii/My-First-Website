@@ -59,6 +59,7 @@ section p{
     grid-gap: 30px;
     margin-top: 50px;
 }
+
 .container-items div{
   background: rgba(122, 63, 63, 0.806);
   border-radius: 15px;
@@ -74,35 +75,6 @@ section p{
 label{
    color: white;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .footer{
   margin-top: 20px;
   display: flex;
@@ -128,39 +100,64 @@ label{
   margin-top: 10px;
 }
 .fa {
-   padding: 10px;
-   font-size: 30px;
-   width: 15px;
-   text-align: center;
-   text-decoration: none;
-   margin: 5px 2px;
- }
- .fa:hover {
-     opacity: 0.7;
- }
- .fa-facebook {
-   border-radius:50px;
-   background: #3B5998;
-   color: white;
- }
- .fa-twitter {
-   background: #55ACEE;
-   color: white;
-   border-radius: 50px;
- }
- .fa-whatsapp{
-   background: #38d235;
-   border: 1px solid ;
-   border-radius: 50px;
-   width: 15px;
- }
- .fa-linkedin {
-   background: #007bb5;
-   color: white;
-   border-radius: 50px;
- }
- .fa-instagram {
-   background: #007bb5;
-   color: white;
-   border-radius: 50px;
- }
+  padding: 10px;
+  font-size: 30px;
+  width: 15px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+.fa:hover {
+    opacity: 0.7;
+}
+.fa-facebook {
+  border-radius:50px;
+  background: #3B5998;
+  color: white;
+  transition: transform 1s;
+}
+.fa-facebook:hover{
+ transform: translateY(-4px);
+ opacity: 0.4;
+}
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+  border-radius: 50px;
+  transition: transform 1s;
+}
+.fa-twitter:hover{
+ transform: translateY(-4px);
+ opacity: 0.4;
+}
+.fa-whatsapp{
+  background: #38d235;
+  border: 1px solid ;
+  border-radius: 50px;
+  width: 15px;
+  transition: transform 1s;
+}
+.fa-whatsapp:hover{
+ transform: translateY(-4px);
+ opacity: 0.4;
+}
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+  border-radius: 50px;
+  transition: transform 1s;
+}
+.fa-linkedin:hover{
+ transform: translateY(-4px);
+ opacity: 0.4;
+}
+.fa-instagram {
+  background: #007bb5;
+  color: white;
+  border-radius: 50px;
+  transition: transform 1s;
+}
+.fa-instagram:hover{
+ transform: translateY(-4px);
+ opacity: 0.4;
+}
